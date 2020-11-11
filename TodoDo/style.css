@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  color: black;
+  background-color: grey;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* -------------------------------------------------------------------------------- */
+.container {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.4rem;
+  align-items: center;
+}
+h1 {
+  font-size: 4.8rem;
+}
+
+input {
+  font-size: 2.4rem;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.toprow {
+  display: flex;
+}
+
+.add {
+  border: 2px solid lightskyblue;
+}
+
+.todo {
+  display: flex;
+  list-style: none;
+  flex: 1;
+  font-size: 2.4rem;
+  margin: 1rem;
+}
+.todo li {
+  flex: 1;
+  background-color: white;
+}
+
+.fa-check {
+  background: mediumseagreen;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  color: white;
+}
+.fa-trash {
+  background: palevioletred;
+  padding: 0.5rem;
+  border: none;
+  color: white;
+}
+
+.add-btn {
+  background: lightskyblue;
+  color: white;
+  font-size: 3.4rem;
+}
+
+.fas {
+  padding: 0.5rem;
+  color: white;
+  font-size: 3.4rem;
+}
+
+.done {
+  text-decoration: line-through;
+}
+.complete-btn {
+  border: 2px solid mediumseagreen;
+}
+.trash-btn {
+  border: 2px solid palevioletred;
+}
+.todo-item {
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  transition: ease-out;
+  transition: 0.5s;
+  opacity: 0;
+}
